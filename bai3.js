@@ -59,7 +59,9 @@ console.log(isPerfectNumber(12));
 
 //3c
 function isPerfectSquare(n) {
-  if (n < 0) return false;
+  if (n <= 0) {
+    return false;
+  }
 
   let x = 0;
   let square = 0;
